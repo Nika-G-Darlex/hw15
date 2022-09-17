@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+header{
+    font-family: 'Open Sans';
+    padding-bottom: 138px; 
+}
+.navbar{
+    padding-top: 80px;
+}
+.navbar-brand{
+    font-size: 38px;
+line-height: 35px;
+font-weight: 600;
+margin-right: 0;
+}
+span{
+    color: #fc6744;
+}
+.logo-smart{
+    border-radius: 2px;
+    border:3.54px solid #170f1c ;
+    width: 149px;
+height: 55px;
+text-align: center;
+}
+.navbar-toggler{
+border: none;
+width: 34px;
+height: 22px;
+line-height: 8px;
+margin-bottom: 35px;
+}
+.navbar-toggler-icon{
+    width: 34px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #170f1c;
+}
+.card-title{
+    font-size: 50px;
+    line-height: 46px;
+    font-weight: 600;  
+    font-family: 'Open Sans';
+    text-align: center;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Open Sans"; 
+    width: 709px;
+height: 68px;
+margin-top: 26px;
+}
+.card{
+    width: 709px;
+    text-align: center;
+    margin: auto;
+    border: none;
+    margin-top: 145px;
+    background-color: #f5f5f5;
+}
+.tittle-message{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center; 
+    margin-top: 26px;
+}
+.message{
+    margin-top: 109px;
+    width: 372px;
+height: 388px;
+border-radius: 2px;
+filter: drop-shadow(0 0 28.5px rgba(20,20,21,0.2));
+background-color: #ffffff;
+}
+
+.form-control{
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+width: 294px;
+margin: auto;
+padding-top: 45px;
+resize: none;
+}
+
+
