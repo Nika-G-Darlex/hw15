@@ -147,7 +147,6 @@ font-family: "Open Sans";
     font-weight: 400;
     font-family: "Open Sans"; 
  max-width: 709px;
-height: 68px;
 text-align: center;
 margin-bottom: 8px;
 }
@@ -159,7 +158,6 @@ margin-top:100px ;
 .card-1{
     width: 262px;
 height: 263px;
-filter: drop-shadow(0 0 17.5px rgba(20,20,21,0.21));
 color: #ffffff;
 font-family: "Open Sans";
 text-align: center;
@@ -167,7 +165,8 @@ border-radius: 0;
 
 }
 .cd-1{
-    background-color: #4eb2f7;   
+    background-color: #4eb2f7; 
+    filter: drop-shadow(0 0 17.5px rgba(20,20,21,0.21));  
 }
 .cd-2{
 background-color: #c049f8;
@@ -190,7 +189,7 @@ background-color: #c049f8;
     font-weight: 600;
   margin-top: 10px;
 }
-.card-text{
+.text-card{
     font-size: 15px;  
     line-height: 22px;
     font-weight: 400;
@@ -200,8 +199,7 @@ margin: auto;
 .button-card{
     width: 228px;
     height: 55px;
-    border-radius: 27px;
-    filter: drop-shadow(0 0 7px rgba(20,20,21,0.05));
+    border-radius: 27px;;
     background-color: #ffffff;  
     border: 0; 
     text-align: center;
@@ -210,12 +208,19 @@ margin: auto;
 line-height: 25px;
 margin-top: 24px;
 }
+
+.button-shadow-2{
+    filter: drop-shadow(0 0 7px rgba(20,20,21,0.05));   
+}
 .plus-card{
  margin-right: 16px;   
 }
 .section-featured{
 padding-top:129px;
 padding-bottom: 171px;
+}
+.padding-featured{
+    padding-bottom: 112px;
 }
 .box{
     display: flex;
@@ -230,11 +235,54 @@ padding-bottom: 171px;
 .section-services{
     background-color: #ffffff;
     padding-top:144px ;
+    font-family: "Open Sans";
 }
 .provide-img{
     display: block;
+    width: 104px;
+height: 92px;
+border-radius: 2px;
+margin-top: 7px;
 }
-.provide-img-1{
-   margin-left: 36px;
-   
+.box-shadow-1{
+    filter: drop-shadow(0 0 18px rgba(20,20,21,0.2));
+    background-color: #ffffff;   
 }
+.box-shadow-2{
+    filter: drop-shadow(0 0 0.5px rgba(20,20,21,0.14));
+    background-color: #fbfbfb;
+}
+.padding-modern{
+    padding-bottom: 137px;
+}
+.card-title{
+    font-size: 30px;
+    line-height: 46px;
+    color: #000000;
+    font-weight: 400;   
+
+}
+.card-text{
+    max-width: 521px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 400;   
+    margin-top: 17px;
+    
+}
+.modern-button{
+    filter: drop-shadow(1.91px 10.833px 10px rgba(20,20,21,0.07));
+    border: 1px solid rgba(1,2,2,0.07);   
+}
+.card{
+border: 0;
+}
+
+.modern-app-design{
+display: flex;
+}
+.modern-underline{
+border-bottom: 3px solid #ff5c36;
+width: 57px;
+   }   
