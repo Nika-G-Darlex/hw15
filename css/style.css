@@ -123,6 +123,7 @@ font-family: "Open Sans";
 .section-working{
     background-color: #ffffff;
     padding-top: 141px;
+    padding-bottom: 156px;
 }
 .card-working{
     background-color: #ffffff; 
@@ -151,47 +152,89 @@ text-align: center;
 margin-bottom: 8px;
 }
 .working-card{
-    display: flex;
- justify-content: space-between;
+ display: flex;
+ justify-content: space-between; 
+margin-top:100px ;
 }
-.card{
+.card-1{
     width: 262px;
 height: 263px;
 filter: drop-shadow(0 0 17.5px rgba(20,20,21,0.21));
-text-align: center;
 color: #ffffff;
 font-family: "Open Sans";
+text-align: center;
 border-radius: 0;
 
 }
-.card-img-top{
- max-width:50px;   
- max-height: 54px;
+.cd-1{
+    background-color: #4eb2f7;   
 }
-.wrap-card-1{
-    background-color: #4eb2f7;  
+.cd-2{
+background-color: #c049f8;
 }
-.wrap-card-2{
-    background-color: #c049f8;
-}
-.wrap-card-3{
+.cd-3{
     background-color: #817eff;
 }
-.wrap-card-4{
-    background-color: #f74770;
+.cd-4{
+    background-color: #f74770;   
+}
+.card-img{
+ max-width:50px;   
+ max-height: 54px;
+ margin-top: 54px;
+ 
 }
 .card-tittle{
     font-size: 20px;   
     line-height: 42px;
     font-weight: 600;
+  margin-top: 10px;
 }
 .card-text{
     font-size: 15px;  
     line-height: 22px;
     font-weight: 400;
+    max-width: 212px;
+margin: auto;
 }
-.card-4{
-    background-color: #f74770;
-}   
-
-
+.button-card{
+    width: 228px;
+    height: 55px;
+    border-radius: 27px;
+    filter: drop-shadow(0 0 7px rgba(20,20,21,0.05));
+    background-color: #ffffff;  
+    border: 0; 
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+line-height: 25px;
+margin-top: 24px;
+}
+.plus-card{
+ margin-right: 16px;   
+}
+.section-featured{
+padding-top:129px;
+padding-bottom: 171px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+.orange-box{
+    width: 360px;
+    height: 358px;
+    background-color: #ff5c36;   
+}
+.section-services{
+    background-color: #ffffff;
+    padding-top:144px ;
+}
+.provide-img{
+    display: block;
+}
+.provide-img-1{
+   margin-left: 36px;
+   
+}
