@@ -252,9 +252,6 @@ margin-top: 7px;
     filter: drop-shadow(0 0 0.5px rgba(20,20,21,0.14));
     background-color: #fbfbfb;
 }
-.padding-modern{
-    padding-bottom: 137px;
-}
 .card-title{
     font-size: 30px;
     line-height: 46px;
@@ -281,8 +278,98 @@ border: 0;
 
 .modern-app-design{
 display: flex;
+justify-content: space-between;
+padding-top: 117px;
+padding-bottom: 164px;
 }
 .modern-underline{
 border-bottom: 3px solid #ff5c36;
 width: 57px;
    }   
+.watch{
+    max-width: 361px;
+    max-height: 403px;
+    margin-top: 20px;
+}
+.modern-img{
+    margin-top: 20px;
+}
+.section-team{
+ padding-top: 141px;   
+ font-family: "Open Sans";
+}
+.team-cards{
+    margin-top: 127px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+    position: relative;
+}
+.manos-sayed{
+   width: 360px;
+   height: 445px;
+    filter: drop-shadow(0 0 1px rgba(20,20,21,0.6));
+    background-color: #ff5c36;   
+   
+
+}
+.rayhan{
+    width: 360px;
+    height: 445px;
+    filter: drop-shadow(0 0 24.5px rgba(20,20,21,0.11));
+    background-color: #fff3f0;   
+}
+.parena-designer{
+    width: 262px;
+    height: 95px;
+    border-radius: 2px;
+    filter: drop-shadow(1.042px 5.909px 8px rgba(20,20,21,0.08));
+    background-color: #ffffff;  
+}
+.left-position{
+    position: absolute;
+   top: 374px;
+   left: 62px;   
+}
+.right-position{
+    position: absolute;
+    top: 374px;
+    right: 62px;
+}
+.name-team{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+
+}
+.job-title-team{
+    font-size: 16px;
+    line-height: 48px;
+    font-weight: 300;
+   
+}
+.progress-team{
+    font-size: 11px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 400;
+}
+.progress-bar{
+height: 4px;
+border-radius: 2px;
+background-color: #ff6e47;
+}
+.progress{
+    width: 151px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #707070; 
+    margin: auto;
+}
+.progress-team-card{
+ margin-top: 179px;
+ padding-bottom: px;
+}
+.color-title{
+    color: #ff724c;   
+}
