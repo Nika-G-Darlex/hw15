@@ -321,8 +321,15 @@ width: 57px;
     filter: drop-shadow(0 0 24.5px rgba(20,20,21,0.11));
     background-color: #fff3f0;   
 }
+.social-icon-rayhan{
+    text-decoration: none;
+margin-left: 16px;
+}
+.icons-rayhan{
+    margin-top: 13px;
+}
 .rayhan-title{
-    margin-top: 81px;
+    margin-top: 65px;
 }
 .parena-designer{
     width: 262px;
@@ -346,11 +353,13 @@ width: 57px;
     color: #000000;
     font-weight: 600;
     line-height: 46px;
+    margin-bottom: -1px;
 
 }
 .job-title-team{
     font-size: 16px;
     font-weight: 300;
+    margin-bottom: -1px;
    
 }
 .progress-team{
@@ -358,11 +367,16 @@ width: 57px;
     line-height: 20px;
     color: #000000;
     font-weight: 400;
+   margin-bottom: -1px;
+ 
 }
 .progress-bar{
 height: 4px;
 border-radius: 2px;
 background-color: #ff6e47;
+}
+.wrap-progress{
+padding-top: 11px;
 }
 .progress{
     width: 151px;
@@ -372,7 +386,7 @@ background-color: #ff6e47;
     margin: auto;
 }
 .progress-team-card{
- margin-top: 179px;
+ margin-top: 158px;
  padding-bottom: px;
 }
 .color-title{
@@ -436,7 +450,7 @@ margin: 0 auto;
 padding-bottom: 15px;
 }
 .carousel-item{
-    display: flex;
+display: flex;
 }
 .section-logos{
     background-color: #fbfbfb;   
@@ -446,6 +460,7 @@ padding-bottom: 15px;
     display: flex;
     justify-content: space-between;
 }
+
 footer{
     background-color: #f7f7f7;
     color: #000000;
