@@ -8,9 +8,11 @@
 body{
     background-color: #f5f5f5;
 }
+.container{
+    max-width: 1170px;
+}
 header{
     font-family: 'Open Sans';
-    padding-bottom: 146px; 
 }
 
 .navbar{
@@ -44,6 +46,9 @@ margin-bottom: 35px;
     height: 4px;
     border-radius: 2px;
     background-color: #170f1c;
+}
+.section-smart{
+    margin-top: 135px;
 }
 .wrap-smart{
     width: 709px;
@@ -99,9 +104,7 @@ line-height: 25px;
 font-weight: 400;
 font-family: "Open Sans";
 }
-.row{
-    padding-bottom: 18px;
-}
+
 .btn{
     width: 238px;
     height: 55px;
@@ -117,6 +120,7 @@ font-family: "Open Sans";
     text-align: center;
   display: block;
   margin: 0 auto;
+  margin-top: 19px;
 }
 .arrow{
     margin-left: 16px;
@@ -130,9 +134,10 @@ font-family: "Open Sans";
     background-color: #ffffff; 
 }
 .wrap-working{
-    width: 738px;
-    margin: auto;
-    text-align: center;
+ text-align: center;
+ max-width: 750px;
+ margin: auto;
+   
 }
 .working-tittle{
     font-size: 50px;
@@ -152,12 +157,10 @@ text-align: center;
 margin-bottom: 8px;
 }
 .working-card{
- display: flex;
- justify-content: space-between; 
 margin-top:100px ;
 }
 .card-1{
-    width: 262px;
+width: 262px;
 height: 263px;
 color: #ffffff;
 font-family: "Open Sans";
@@ -224,9 +227,7 @@ padding-bottom: 171px;
     padding-bottom: 112px;
 }
 .box{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 26px;
+ margin-top: 22px;  
 }
 .orange-box{
     width: 360px;
@@ -288,12 +289,11 @@ border-bottom: 3px solid #ff5c36;
 width: 57px;
    }   
 .watch{
-    max-width: 361px;
     max-height: 403px;
     margin-top: 20px;
 }
 .modern-img{
-    margin-top: 20px;
+    margin-top: px;
 }
 .section-team{
  padding-top: 141px;   
@@ -302,8 +302,6 @@ width: 57px;
 }
 .team-cards{
     margin-top: 127px;
-    display: flex;
-    justify-content: space-between;
     text-align: center;  
     position: relative;
 }
@@ -354,6 +352,7 @@ margin-left: 16px;
     font-weight: 600;
     line-height: 46px;
     margin-bottom: -1px;
+margin-top: 10px;
 
 }
 .job-title-team{
@@ -401,37 +400,70 @@ font-size: 17px;
 font-weight: 400;
 font-family: "Source Sans Pro";
 padding-bottom: 196px;
-
 }
 .carousel{
- margin-top: 83px;   
+ margin-top: 83px;  
+}
+.carousel-item{
+    padding: 20px 0 20px 0;
 
 }
+.carousel-control-prev{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;    
+    filter: drop-shadow(0.521px 2.954px 7px rgba(20,20,21,0.08));
+background-color: #ffffff;
+margin-top: 136px;
+z-index: 2;
+color: #000000;
+}
+.carousel-control-prev-icon{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 75px;
+    color: #000000;
+   
+}
+.carousel-control-next{
+    width: 48px;
+height: 48px;
+border-radius: 24px;
+filter: drop-shadow(0.521px 2.954px 7px rgba(20,20,21,0.28));
+background-color: #ff6e47;
+margin-top: 136px;
+z-index: 2;
+}
+.carousel-indicators{
+    bottom: -91px;
+}
+
+.carousel-item{
+  
+}
+
 .circle{
     width: 98px;
 height: 98px;
 border-radius: 49px;
 filter: drop-shadow(0 0 0.5px rgba(20,20,21,0.75));
 background-color: #ffffff;
-position: relative;
+
 z-index: 2;
 }
 .left-circle{
-    top: 48px;  
-    left: 225px; 
+
 }
 .right-circle{
-    top: 48px;  
-    left: 525px;    
+
 }
 .clients-card{
     width: 536px;
-    height: 271px;
     border-radius: 1px;
     background-color: #ffffff;  
     padding-top: 82px;
     margin-left: 15px;
-    
+    padding-bottom: 38px;
 }
 .clients-shadow-1{
     filter: drop-shadow(0 0 13.5px rgba(20,20,21,0.09));    
@@ -449,16 +481,14 @@ display: block;
 margin: 0 auto;
 padding-bottom: 15px;
 }
-.carousel-item{
-display: flex;
-}
+
 .section-logos{
     background-color: #fbfbfb;   
-    padding: 77px 0 96px 0; 
+    padding: 77px 0 98px 0; 
 }
 .logo-footer{
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
 }
 
 footer{
@@ -466,17 +496,17 @@ footer{
     color: #000000;
 font-weight: 400;
 font-family: "Open Sans";
+padding-top: 44px;
 }
 .wrap-footer{
-    margin-top: 21px;
     display: flex;
     justify-content: center;
 }
 .icons-footer{
 margin-top: 49px;    
+padding-bottom: 54px;
 display: flex;
 justify-content: center;
-padding-bottom: 54px;
 }
 .social-icon{
     text-decoration: none;
