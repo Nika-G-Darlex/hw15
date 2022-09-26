@@ -391,6 +391,13 @@ padding-top: 11px;
 .color-title{
     color: #ff724c;   
 }
+
+
+
+
+
+
+
 .section-clients{
 background-color: #ffffff;   
 padding-top: 137px;
@@ -401,11 +408,10 @@ font-weight: 400;
 font-family: "Source Sans Pro";
 padding-bottom: 196px;
 }
-.carousel{
- margin-top: 83px;  
-}
+
 .carousel-item{
-    padding: 20px 0 20px 0;
+    padding: 138px 5px 20px 0px;
+    position: relative;
 
 }
 .carousel-control-prev{
@@ -414,16 +420,9 @@ padding-bottom: 196px;
     border-radius: 24px;    
     filter: drop-shadow(0.521px 2.954px 7px rgba(20,20,21,0.08));
 background-color: #ffffff;
-margin-top: 136px;
-z-index: 2;
-color: #000000;
-}
-.carousel-control-prev-icon{
-    font-size: 18px;
-    letter-spacing: 2px;
-    line-height: 75px;
-    color: #000000;
-   
+margin-top: 260px;
+
+
 }
 .carousel-control-next{
     width: 48px;
@@ -431,15 +430,10 @@ height: 48px;
 border-radius: 24px;
 filter: drop-shadow(0.521px 2.954px 7px rgba(20,20,21,0.28));
 background-color: #ff6e47;
-margin-top: 136px;
-z-index: 2;
+margin-top: 260px;
 }
 .carousel-indicators{
     bottom: -91px;
-}
-
-.carousel-item{
-  
 }
 
 .circle{
@@ -448,22 +442,18 @@ height: 98px;
 border-radius: 49px;
 filter: drop-shadow(0 0 0.5px rgba(20,20,21,0.75));
 background-color: #ffffff;
-
-z-index: 2;
+position: absolute;
+top: -50px;
+left: 215px ;
 }
-.left-circle{
 
-}
-.right-circle{
-
-}
 .clients-card{
     width: 536px;
     border-radius: 1px;
     background-color: #ffffff;  
-    padding-top: 82px;
     margin-left: 15px;
-    padding-bottom: 38px;
+    padding-top: 95px;
+    padding-bottom: 30px;
 }
 .clients-shadow-1{
     filter: drop-shadow(0 0 13.5px rgba(20,20,21,0.09));    
@@ -481,6 +471,12 @@ display: block;
 margin: 0 auto;
 padding-bottom: 15px;
 }
+
+
+
+
+
+
 
 .section-logos{
     background-color: #fbfbfb;   
