@@ -40,7 +40,9 @@ width: 34px;
 height: 22px;
 line-height: 8px;
 margin-bottom: 35px;
+box-shadow: none !important;
 }
+
 .navbar-toggler-icon{
     width: 34px;
     height: 4px;
@@ -103,6 +105,7 @@ font-size: 15px;
 line-height: 25px;
 font-weight: 400;
 font-family: "Open Sans";
+box-shadow: none !important;
 }
 
 .btn{
@@ -276,6 +279,7 @@ margin-top: 7px;
 }
 .card{
 border: 0;
+margin: -20px;
 }
 
 .modern-app-design{
@@ -391,13 +395,6 @@ padding-top: 11px;
 .color-title{
     color: #ff724c;   
 }
-
-
-
-
-
-
-
 .section-clients{
 background-color: #ffffff;   
 padding-top: 137px;
@@ -407,6 +404,11 @@ font-size: 17px;
 font-weight: 400;
 font-family: "Source Sans Pro";
 padding-bottom: 143px;
+}
+.carousel{
+    min-height: 100%;
+    width: 100%;
+    height: auto;
 }
 .carousel-inner{
     padding-bottom: 53px;
@@ -422,6 +424,9 @@ padding-bottom: 143px;
     filter: drop-shadow(0.521px 2.954px 7px rgba(20,20,21,0.08));
 background-color: #ffffff;
 margin-top: 260px;
+position: absolute;
+left: -10px;
+
 }
 .carousel-control-next{
     width: 48px;
@@ -430,6 +435,9 @@ border-radius: 24px;
 filter: drop-shadow(0.521px 2.954px 7px rgba(20,20,21,0.28));
 background-color: #ff6e47;
 margin-top: 260px;
+position: absolute;
+right: -20px;
+
 }
 .carousel-indicators{
     margin: auto;
