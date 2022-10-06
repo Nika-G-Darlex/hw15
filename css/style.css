@@ -681,6 +681,31 @@ height: 55px;
     width: 300px;
     height: 340px;
 }
+
+.clients-shadow-2{
+    display: none;
+}
+.clients-shadow-1{
+    width: 70%;
+   margin: auto;
+}
+.circle{
+   left: 43%;
+}
+.clients-text{
+    margin-top: -20px;
+}
+.clients-card img{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.carousel-control-prev{
+    left: 13%;
+}
+.carousel-control-next{
+    right:13%;
+}
+
 }
 @media screen and (max-width:991px){
 .manos-sayed{
@@ -796,12 +821,226 @@ footer{
     margin: auto;
 }
 
+.logo-footer{
+width: 40%;
+margin: auto;
+flex-wrap: wrap;
+}
+.logo-footer a{
+    padding-bottom: 30px;
+}
+.section-logos{
+padding-bottom: 40px;
+}
+.card-title{
+    font-size:22px ;
+}
+.card-text{
+    font-size: 14px;
+}
+.modern-button{
+    font-size: 14px;
+}
+}
+@media screen and (max-width:840px){
+.watch{
+    display: none;
+}
+
+}
+@media screen and (max-width:768px){
+.padding-modern{
+    padding-bottom: 0;
+}
+.circle{
+    left: 41%;
+}
+.section-clients{
+    padding-bottom: 30px;
+}
+.button-footer{
+    width: 170px;
+}
+.icon-text{
+    font-size: 14px;
+}
+
+.smart-tittle{
+    font-size: 35px;
+}
+.smart-text{
+    font-size: 13px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.working-tittle{
+    font-size: 35px;
+}
+.working-text{
+    font-size:13px ;
+}
+
+.wrap-working{
+    padding-bottom: 0;
+}
+.button-card{
+font-size: 14px;
+margin: 0;
+}
+.text-card{
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.card-1{
+    padding-top: 30px;
+}
+.wrap-footer{
+    padding-top: 30px;
+}
+}
+@media screen and (max-width:660px){
+.circle{
+    width:78px ;
+    height: 78px;
+    left: 41%;
+}
+.carousel-control-prev{
+    left: 11%;
+}
+.carousel-control-next{
+    right: 12% ;
+}
+.orange-box{
+ width: 170px;  
+ height: 171px; 
+}
+.message{
+    width: 320px;
+    height: 370px;
+}
+.form-control{
+    width: 230px;
+}
+.btn{
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+    margin: auto;
+}
+.btn-primary{
+    margin-top: 7px;
+}
+.button-card{
+    width: 180px;
+}
+}
+@media screen and (max-width:575px){
+.circle{
+    left: 40%;
+}
+.clients-text{
+  font-size: 14px;  
+}
+.card-text{
+    font-size: 13px;
+}
+.orange-box{
+    width: 70%;
+    height: 358px;
+    margin-top: 20px;
+}
+.box{
+    margin: 0;
+}
+
+.logo-footer{
+    width: 35%;
+ justify-content: center;
+}
+.logo-footer img{
+    width: 130px;
+}
+.icons-footer{
+    width: 70%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+}
 
 
+}
+@media screen and (max-width:500px){
+.smart-tittle{
+    font-size: 28px;
+}
+.working-tittle{
+    font-size: 28px;
+}
+.working-text{
+    width: 90%;
+    margin: auto;
+}
+.modern-app-design{
+    width: 90%;
+    margin: auto;
+}
+.orange-box{
+    height: 300px;
+}
 
-
-
-
-
+.carousel-control-prev{
+    left: 3%;
+    top: -10%;
+}
+.carousel-control-next{
+    right: 3% ;
+    top: -10%;
+}
+.circle{
+    left: 41%;
+}
+.clients-card{
+    width: 90%;
+    margin: auto;
+}
+.clients-text{
+    font-size: 12px;
+}
+.clients-director{
+    font-size: 13px;
+}
+.carousel-item{
+    margin-top: -50px;
+}
+.section-smart{
+   margin-top: 30px;
+}
+.carousel{
+    margin: auto;
+}
+}
+@media screen and (max-width:500px){
+.padding-modern{
+    padding-bottom: 20px;
+}
+.manos-sayed{
+    height: 350px;
+}
+.rayhan{
+    height: 350px;
+}
+.parena-designer{
+    width: 200px;
+}
+.rayhan-title{
+    margin: 0;
+}
+.progress-team-card{
+    margin-top: 120px;
+}
+.orange-box{
+    height:250px ;
+}
 
 }
